@@ -20,4 +20,3 @@ class Footer extends Component {
   }
   
   export default Footer;
-© 2021 GitHub, Inc.
