@@ -1,11 +1,11 @@
 {
-  "name": "master-portfolio",
+  "name": "kaj2",
   "version": "0.1.1",
   "private": true,
   "homepage": ".",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vimalverma558/master-portfolio.git"
+    "url": "git+https://github.com/kavinduaj12/kaj2.git"
   },
   "keywords": [
     "master-portfolio",
@@ -15,7 +15,7 @@
   "author": "vimalverma558",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vimalverma558/master-portfolio/issues"
+    "url": "https://github.com/kavinduaj12/kaj2issues"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
