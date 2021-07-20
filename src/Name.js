@@ -1,12 +1,12 @@
 const greeting = {
-    title: "Hi, I'm Your Name",
-    logo_name: "Name",
+    title: "Hi, I'm Kavindu AJ",
+    logo_name: "</Kavindu AJ>",
     logo_img_show: false, // if true than show image(logo) in home page instant of text(logo)
-    logo_img: "https://logo.letskhabar.com/name?name=name",
-    full_name: "your name",
+    logo_img: "https://logo.letskhabar.com/name?name=K",
+    full_name: "Kavindu AJ",
     email: "email id",
     subTitle:
-    "I'm a student pursuing {Course} in {department} from {university}. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage. Apart from that I also love to guide and mentor newbies. I'm currently into Web Development and working on my MERN Website",
+    "I am an avid learner who is always willing to learn and work through technologies and domains. I like to explore new technologies. Apart from that I also like to guide and advise newcomers.",
     Programming: true,  // if true, Show 'Programming' section in home page, if false than not show
     developer: true,  // if true, Show 'Full Stack Development' section in home page, if false than not show
     designer: true,  // if true, Show 'designer' section in home page, if false than not show
@@ -20,10 +20,9 @@ const greeting = {
 const BlogData = {
     // this show your dev.to blog in your Portfolio blog
     show_Blog: true,  // if true it Show your DEV.to article in Blog Section, if false than Blog Section convert to skill Section.
-    devto_username: "vimal",
+    devto_username: "kaj",
     Blog_Bio : [
         // this is visible in '/blog' section if show_Blog: true, else show in skill section
-        "You can Remove this section in name.js",
         "Writing blog on Devto",
         "my main skill is wen dev"
     ]
@@ -36,22 +35,22 @@ const socialMedia = [
     {
         icon: "facebook",
         img: "https://logo.letskhabar.com/img?tool=facebook0",
-        link: "Your facebook link"
+        link: "https://www.facebook.com/groups/1484206235270925/"
     },
     {
         icon: "twitter",
         img: "https://logo.letskhabar.com/img?tool=twitter",
-        link: "Your twitter link"
+        link: "#"
     },
     {
         icon: "instagram",
         img: "https://logo.letskhabar.com/img?tool=instagram",
-        link: "Your instagram link"
+        link: "#"
     },
     {
         icon: "github",
         img: "https://logo.letskhabar.com/img?tool=github",
-        link: "Your github link"
+        link: "https://github.com/kjeymax"
     },
     {
         icon: "gitlab",
@@ -221,18 +220,11 @@ const data_Science_Skill = [
         icon: "python",
         img: "https://logo.letskhabar.com/img?tool=python"
     },
-    {
-        icon: "kaggle",
-        img: "https://logo.letskhabar.com/img?tool=kaggle"
-    },
+ 
     {
         icon: "tensorflow",
         img: "https://logo.letskhabar.com/img?tool=tensorflow"
     },
-    {
-        icon: "jupyter",
-        img: "https://logo.letskhabar.com/img?tool=jupyter"
-    }
 
 ];
 const Ml_ai_Skill = [
@@ -293,33 +285,34 @@ const Gamedev_Skill = [
 const projects = [
     {
         id: "1",
-        name: "project 1",
-        Description: "this is Description",
-        Code_Link: "this is code link",
-        Live_link: "this is Live link",
-        tool_used: "html,css,js",
-        img: "https://master-portfolio.js.org/src/assets/img/mplogo.png"
+        name: "GDUPLOAD_BOT",
+        Description: "Telegram Google Drive Uploader",
+        Code_Link: "https://github.com/kjeymax/GDUPLOAD_BOT2",
+        Live_link: "",
+        tool_used: "js",
+        img: ""
     },
     {
         id: "2",
-        name: "project 2",
-        Description: "this is Description",
-        Code_Link: "this is code link",
-        Live_link: "this is Live link",
-        tool_used: "html,css,js",
-        img: "https://master-portfolio.js.org/src/assets/img/mplogo.png"
+        name: "File-Store-Bot",
+        Description: "Bot generates sharable link inside telegram for documents and make files public via inline search",
+        Code_Link: "https://github.com/kjeymax/File-Store-Bot",
+        Live_link: "https://t.me/FileStorelk_bot",
+        tool_used: "js",
+        img: ""
     },
     {
         id: "3",
-        name: "project 3",
-        Description: "this is Description",
-        Code_Link: "this is code link",
+        name: "Radio Lives Stream",
+        Description: "Telegram Radio Stream",
+        Code_Link: "https://github.com/kjeymax/Radiolivestream",
         Live_link: "this is Live link",
         tool_used: "html,css,js",
         img: "https://master-portfolio.js.org/src/assets/img/mplogo.png"
     }
 ];
-const certificate = [
+
+/*const certificate = [
     {
         id: "1",
         name: "certificate 1",
@@ -341,14 +334,14 @@ const certificate = [
         Link: "this is code link",
         img: "https://master-portfolio.js.org/src/assets/img/mplogo.png"
     }
-];
+];*/
 
-const ProgrammingBio = [
-    "You can Remove this section in name.js",
+
+/*const ProgrammingBio = [
     "i know c java and python",
     'you can edit this text from name.js',
     "you can change below skill icons from name.js"
-];
+];*/
 
 const DevBio = [
     "Building responsive website front end using React-Redux",
@@ -368,13 +361,12 @@ const AboutBio =[
     ' I’m currently working with Node.js, Express.js, React, Mongodb, Javascript, Flutter, etc',
     ' I’m a student pursuing {course} in {department} from {university}',
     ' Fun fact: \'Equal is Not Always Equal in Javascript\'',
-    ' I am From {City}',
+    ' I am From Matara',
     ' I am available on almost every social media. You can message me'
 ];
 const EducationBio =[
     ' I’m currently learning Full Stack Development.',
     ' I’m currently working with Node.js, Express.js, React, Mongodb, Javascript, Flutter, etc',
-    ' I’m a student pursuing {course} in {department} from {university}',
     ' Fun fact: \'Equal is Not Always Equal in Javascript\'',
 ];
 const ProjectsBio =[
@@ -382,8 +374,7 @@ const ProjectsBio =[
     ' I’m currently working with Node.js, Express.js, React, Mongodb, Javascript, Flutter, etc'
 ];
 const ContactBio =[
-    'I\'m a student pursuing {course} in {department} from {university}',
-    ' I am From {City}',
+    ' I am From Matara',
     ' I am available on almost every social media. You can message me'
 
 ];
